@@ -1,12 +1,14 @@
 import Canvas from "./Canvas";
-import flowers from "./assets/flowers.png";
 import Button from "@mui/material/Button";
 import { useEffect } from "react";
+import flowers from "./assets/flowers.png"; // Import the image
 
 function App() {
     useEffect(() => {
         if (window.innerWidth < 768) {
-            alert("This website is best viewed on a desktop for the best experience.");
+            alert(
+                "This website is best viewed on a desktop for the best experience."
+            );
         }
     }, []);
 
