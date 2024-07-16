@@ -60,7 +60,7 @@ function App() {
                         backgroundColor: "#8070CF",
                         color: "white",
                     }}
-                    href="https://github.com/maceoCK/birthday-website"
+                    href="https://github.com/maceoCK/mom-birthday"
                     target="_blank"
                 >
                     Check out the code for this
